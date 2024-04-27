@@ -1,9 +1,15 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => (
-  <div>
-    <h1>Hello, World!</h1>
-  </div>
+  <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+      </Routes>
+    </BrowserRouter>
+  </>
 );
 
 export default App;
