@@ -1,0 +1,21 @@
+@import "./colors.scss";
+
+@mixin section-title {
+  color: $primary-text-main;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+
+  span {
+    border-bottom: 3px solid $primary-main;
+    border-radius: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+@mixin section-subtitle {
+  color: $primary-text-main;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}

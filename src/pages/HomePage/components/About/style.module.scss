@@ -1,0 +1,11 @@
+@import "../../../../styles/colors.scss";
+@import "../../../../styles/mixins.scss";
+
+.container {
+  background-color: $secondary-container-bg;
+  padding: 2.5rem;
+
+  .title {
+    @include section-title;
+  }
+}
