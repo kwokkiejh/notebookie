@@ -8,11 +8,33 @@
   .title {
     @include section-title;
   }
+
+  .job-section {
+    margin-bottom: 2rem;
+  }
   .job-title {
     @include section-subtitle;
   }
   .job-duration {
     color: $primary-text-light;
     font-size: 1rem;
+  }
+
+  .card {
+    background-color: $primary-main-light;
+    width: 20%;
+    color: $primary-text-main;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+
+    .card-header {
+      color: $primary-main-dark;
+      font-weight: 600;
+      font-size: 1.125rem;
+      margin-bottom: 0.625rem;
+    }
   }
 }
