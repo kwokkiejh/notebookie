@@ -1,0 +1,30 @@
+@import "../../../../styles/colors.scss";
+@import "../../../../styles/mixins.scss";
+
+.container {
+  padding: 1.5rem 2rem 3.5rem;
+  background: $footer-container-bg;
+  color: #fff;
+  .title {
+    @include section-title;
+    color: #fff;
+
+    span {
+      border-color: #fff;
+    }
+  }
+
+  .button {
+    background-color: $primary-main-dark;
+    margin-right: 8px;
+  }
+
+  .button:hover {
+    background-color: $primary-main-dark !important;
+  }
+
+  .link {
+    color: #fff;
+    text-decoration: none;
+  }
+}

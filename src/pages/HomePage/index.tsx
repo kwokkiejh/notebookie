@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import * as styles from "./style.module.scss";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 const HomePage: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage: React.FC = () => {
       <About />
       <Skills />
       <Experience />
+      <Contact />
     </div>
   );
 };
