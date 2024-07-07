@@ -1,1 +1,3 @@
-# notebookie
+# notebookie - My Personal Profile
+
+WIP
