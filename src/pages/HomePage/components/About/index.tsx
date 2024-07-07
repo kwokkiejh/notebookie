@@ -11,6 +11,8 @@ const About: React.FC = () => {
         I'm a software engineer with <b>over 3 years of experience</b> and I
         enjoy creating front-end interfaces to life. I'm a <b>quick learner</b>{" "}
         and I have become experienced with back-end development at work as well.
+        I've worked on{" "}
+        <b>interesting domains in both public and private sector</b>.
       </p>
       <p>
         I'm swift at <b>translating requirements to code and writing code</b>,
