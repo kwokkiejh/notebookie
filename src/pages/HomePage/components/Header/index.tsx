@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <div className={styles.headerText}>Hi, I'm Jia Hui</div>
         <div className={styles.headerSubtext}>
           <p>
-            A senior software engineer with full-stack experience
+            A software engineer with full-stack experience
             <br />I would say I'm a carefree, responsible and fun person. I have
             fun with code!
           </p>
