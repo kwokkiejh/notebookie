@@ -1,4 +1,5 @@
 @import "../../../../styles/mixins.scss";
+@import "../../../../styles/colors.scss";
 
 .container {
   padding: 1.5rem 2rem;
@@ -22,7 +23,8 @@
       background: rgba(153, 153, 153, 0.2);
       border-radius: 5px;
       font-weight: 600;
-      color: #666;
+      background: $primary-main-dark;
+      color: #fff;
     }
   }
 }

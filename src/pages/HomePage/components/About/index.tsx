@@ -18,6 +18,11 @@ const About: React.FC = () => {
         <b>project/technical management and mentorship</b>.
       </p>
       <p>
+        Before embarking on my career, I studied and graduated with a{" "}
+        <b>Bachelor of Computing in Information Systems, First Class Honours</b>{" "}
+        at the National University of Singapore (School of Computing).
+      </p>
+      <p>
         There's still so much more to learn in the world of coding. I'm
         currently searching for new opportunities that will allow me to take on
         new challenges and grow in the technical aspect.

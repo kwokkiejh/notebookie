@@ -1,4 +1,10 @@
 $primary-text-main: #161f38;
 $primary-text-light: #575861;
-$primary-main: #0057ff;
-$secondary-container-bg: #fafafa;
+$primary-main-dark: #7b4f8f;
+$primary-main-light: #f9f0fe;
+$primary-container-bg: $primary-main-light;
+$secondary-container-bg: radial-gradient(
+  17.62% 25.28% at 76.23% 35.19%,
+  #f9f0fe 0%,
+  rgba(255, 255, 255, 0.6) 100%
+);

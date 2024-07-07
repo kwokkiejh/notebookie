@@ -3,6 +3,7 @@
 
 .container {
   padding: 1.5rem 2rem;
+  background: $secondary-container-bg;
 
   .title {
     @include section-title;
